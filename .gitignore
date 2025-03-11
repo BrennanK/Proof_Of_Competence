@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Extra Files I don't want to track
+*.vsidx
+*.suo
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.ipch
+*.tlog
