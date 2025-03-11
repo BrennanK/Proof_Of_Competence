@@ -2,11 +2,20 @@
 //
 
 #include <iostream>
-
+#include "Debugger_Practice.h"
 int main()
 {
     std::cout << "This is a test. " << std::endl;
-    std::cin.get() ;
+
+    int number=0;
+
+    number = AddNumbers(4, 5); 
+
+    int y = 90;
+
+    std::cout << "Our number is: " << number << "\n";
+
+    std::cin.get() ; //
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
