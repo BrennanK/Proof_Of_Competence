@@ -40,3 +40,7 @@
 *.opendb
 *.ipch
 *.tlog
+*.pdb
+*idb
+*.log
+*.ilk
