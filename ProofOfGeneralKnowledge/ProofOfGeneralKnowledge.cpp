@@ -6,8 +6,15 @@
 #include "Pointers.h"
 int main()
 {
-    useAPointer();
+    //useAPointer();
+    int v = 5;
 
+    PassByPointer(&v);
+    std::cout << v << std::endl;
+    
+    PassByReference(v);
+    std::cout << v << std::endl;
+    
     std::cin.get() ; //
 }
 

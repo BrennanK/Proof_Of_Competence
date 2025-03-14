@@ -11,3 +11,20 @@ void useAPointer()
 
 	*ptr2 = 13;
 }
+
+void basicReference()
+{
+	int var = 8;
+
+	int& ref = var; // This allows us to create a reference to a variable without creating a new variable to act as a pointer
+}
+
+void PassByPointer(int* value)
+{
+	(*value)+= 3; // Parenthesis needed to dereference the pointer before adding
+}
+
+void PassByReference(int& value)
+{
+	value--; // Pass by reference to avoid the need to dereference
+}
