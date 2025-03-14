@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Debugger_Practice.cpp" />
+    <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="ProofOfGeneralKnowledge.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Debugger_Practice.h" />
+    <ClInclude Include="Pointers.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

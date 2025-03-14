@@ -3,17 +3,10 @@
 
 #include <iostream>
 #include "Debugger_Practice.h"
+#include "Pointers.h"
 int main()
 {
-    std::cout << "This is a test. " << std::endl;
-
-    int number=0;
-
-    number = AddNumbers(4, 5); 
-
-    int y = 90;
-
-    std::cout << "Our number is: " << number << "\n";
+    useAPointer();
 
     std::cin.get() ; //
 }
