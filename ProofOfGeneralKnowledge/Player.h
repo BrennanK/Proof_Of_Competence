@@ -1,16 +1,23 @@
 #pragma once
+
+struct Position3D
+{
+	int x;
+	int y;
+	int z;
+
+
+};
+
 class Player
 {
 	private:
-		int x;
-		int y;
-		int z;
+		Position3D playerPosition;
+
 
 	public:
-		void setX(int& value);
-		void setY(int& value);
-		void setZ(int& value);
-
-		int getAxis(char value);
+		void setPlayerPosition(Position3D& value);
+		Position3D getPosition();
 
 };
+

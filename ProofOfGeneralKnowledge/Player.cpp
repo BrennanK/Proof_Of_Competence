@@ -1,40 +1,11 @@
 #include "Player.h"
 
-void Player::setX(int& value)
+Position3D Player::getPosition()
 {
-	x=value;
+	return playerPosition;
 }
 
-void Player::setY(int& value)
+void Player::setPlayerPosition(Position3D& value)
 {
-	y=value;
-}
-
-void Player::setZ(int& value)
-{
-	z=value;
-}
-
-int Player::getAxis(char value)
-{
-	switch (value)
-	{
-	
-	case 'x':
-		return x;
-		break;
-	
-	case 'y': 
-		return y;
-		break;
-
-	case 'z':
-		return z;
-		break;
-	default:
-		return -1;
-		break;
-	}
-
-	
+	playerPosition = value;
 }

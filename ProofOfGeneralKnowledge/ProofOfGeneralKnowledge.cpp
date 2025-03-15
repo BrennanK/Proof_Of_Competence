@@ -17,16 +17,14 @@ int main()
     //std::cout << v << std::endl;
 
     Player p;
-
-    int px = 100;
-    int py = 200;
-    int pz = 300;
+    Position3D ppos;
+    ppos.x = 100;
+    ppos.y = 200;
+    ppos.z = 300;
     
-    p.setX(px);
-    p.setY(py);
-    p.setZ(pz);
+    p.setPlayerPosition(ppos);
 
-    std::cout << p.getAxis('x') << ", " << p.getAxis('y') << ", " << p.getAxis('z') << std::endl;
+    std::cout<<"X: " << p.getPosition().x << " Y: " << p.getPosition().y << " Z: " << p.getPosition().z << std::endl;
 
     
     std::cin.get() ; //
