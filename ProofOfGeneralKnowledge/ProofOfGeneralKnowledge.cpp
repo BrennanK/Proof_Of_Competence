@@ -4,16 +4,30 @@
 #include <iostream>
 #include "Debugger_Practice.h"
 #include "Pointers.h"
+#include "Player.h"
 int main()
 {
     //useAPointer();
-    int v = 5;
+    //int v = 5;
 
-    PassByPointer(&v);
-    std::cout << v << std::endl;
+    //PassByPointer(&v);
+    //std::cout << v << std::endl;
     
-    PassByReference(v);
-    std::cout << v << std::endl;
+    //PassByReference(v);
+    //std::cout << v << std::endl;
+
+    Player p;
+
+    int px = 100;
+    int py = 200;
+    int pz = 300;
+    
+    p.setX(px);
+    p.setY(py);
+    p.setZ(pz);
+
+    std::cout << p.getAxis('x') << ", " << p.getAxis('y') << ", " << p.getAxis('z') << std::endl;
+
     
     std::cin.get() ; //
 }
