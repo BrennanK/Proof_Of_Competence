@@ -1,7 +1,7 @@
 // ProofOfGeneralKnowledge.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include "Logger.h"
 #include "Debugger_Practice.h"
 #include "Pointers.h"
 #include "Player.h"
@@ -16,7 +16,7 @@ int main()
     //PassByReference(v);
     //std::cout << v << std::endl;
 
-    Player p;
+   /* Player p;
     Position3D ppos;
     ppos.x = 100;
     ppos.y = 200;
@@ -25,7 +25,14 @@ int main()
     p.setPlayerPosition(ppos);
 
     std::cout<<"X: " << p.getPosition().x << " Y: " << p.getPosition().y << " Z: " << p.getPosition().z << std::endl;
+    */
 
+    Log log;
+
+    log.WarningLevel(log.LogLevelInfo);
+    log.Warn("Hello");
+    log.Error("Hello");
+    log.Info("Hello");
     
     std::cin.get() ; //
 }
