@@ -2,9 +2,15 @@
 //
 
 #include "Logger.h"
+
 #include "Debugger_Practice.h"
 #include "Pointers.h"
 #include "Player.h"
+
+
+
+int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
+
 int main()
 {
     //useAPointer();
@@ -27,12 +33,16 @@ int main()
     std::cout<<"X: " << p.getPosition().x << " Y: " << p.getPosition().y << " Z: " << p.getPosition().z << std::endl;
     */
 
-    Log log;
+    // showcasing that we can use both static and non-static methods in a class
 
-    log.WarningLevel(log.LogLevelInfo);
-    log.Warn("Hello");
-    log.Error("Hello");
+    Log log; // non static instance with non-static methods
+
+    log.WarningLevel(Level::LevelInfo); 
     log.Info("Hello");
+    log.Error("Hello");
+    
+    // static method and variable showcase
+    Log::GetTimesLogged();
     
     std::cin.get() ; //
 }

@@ -1,17 +1,24 @@
 #pragma once
 #include <iostream>
 
+
+//int Log::timesLogged=0;
+enum Level
+{
+    LevelWarning, LevelError, LevelInfo
+};
 class Log
 {
 public:
-	const int LogLevelWarning = 0;
-	const int LogLevelError = 1;
-	const int LogLevelInfo = 2;
+
 private:
-	int m_LogLevel=LogLevelInfo;
+    Level m_LogLevel;
+    static int timesLogged;
 public:
-	void WarningLevel(int level);
-	void Warn(const char* message);
-	void Error(const char* message);
-	void Info(const char* message);
+    void WarningLevel(Level level);
+    void Warn(const char* message);
+    void Error(const char* message);
+    void Info(const char* message);
+    static void GetTimesLogged();
+
 };
