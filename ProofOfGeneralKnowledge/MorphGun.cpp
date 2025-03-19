@@ -1,9 +1,16 @@
 #include "MorphGun.h"
-
+#include <iostream>
 MorphGun::MorphGun()
 {
 	AmmoCount = 50;
 	CurrentMode = Shotgun;
+
+	std::cout << "MorphGun created" << std::endl;
+}
+
+MorphGun::~MorphGun()
+{
+	std::cout << "MorphGun destroyed" << std::endl;
 }
 
 

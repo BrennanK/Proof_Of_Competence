@@ -11,7 +11,7 @@ class MorphGun
 
 public: 
 	MorphGun();
-	
+	~MorphGun();
 private:
 	int AmmoCount;
 	GunType CurrentMode;

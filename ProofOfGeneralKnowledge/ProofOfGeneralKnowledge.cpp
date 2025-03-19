@@ -10,6 +10,19 @@
 
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
+void Demonstration() // Used to show how constructor and destructor work
+{
+    MorphGun g1;
+
+    GunType type = GunType::AssultRifle;
+
+    // g1.SetType(type);
+
+    //g1.~MorphGun(); You can manually call the destructor
+
+    std::cout << g1.GetGunType() << std::endl;
+}
+
 int main()
 {
     //useAPointer();
@@ -43,13 +56,7 @@ int main()
     //// static method and variable showcase
     //Log::GetTimesLogged();
 
-    MorphGun g1;
-
-    GunType type = GunType::AssultRifle;
-
-   // g1.SetType(type);
-
-    std::cout<<g1.GetGunType() << std::endl;
+    Demonstration();
     
     std::cin.get() ; //
 }
