@@ -2,11 +2,10 @@
 //
 
 #include "Logger.h"
-
 #include "Debugger_Practice.h"
 #include "Pointers.h"
 #include "Player.h"
-
+#include "MorphGun.h"
 
 
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
@@ -35,14 +34,22 @@ int main()
 
     // showcasing that we can use both static and non-static methods in a class
 
-    Log log; // non static instance with non-static methods
+    //Log log; // non static instance with non-static methods
 
-    log.WarningLevel(Level::LevelInfo); 
-    log.Info("Hello");
-    log.Error("Hello");
-    
-    // static method and variable showcase
-    Log::GetTimesLogged();
+    //log.WarningLevel(Level::LevelInfo); 
+    //log.Info("Hello");
+    //log.Error("Hello");
+    //
+    //// static method and variable showcase
+    //Log::GetTimesLogged();
+
+    MorphGun g1;
+
+    GunType type = GunType::AssultRifle;
+
+   // g1.SetType(type);
+
+    std::cout<<g1.GetGunType() << std::endl;
     
     std::cin.get() ; //
 }
