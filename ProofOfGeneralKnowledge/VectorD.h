@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 class VectorD
 {
 public:
@@ -8,5 +9,6 @@ protected:
 	float X;
 public:
 	float getX();
+	virtual std::string typeOfVector();
 };
 

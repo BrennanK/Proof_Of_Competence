@@ -10,3 +10,8 @@ float Vector2D::getY()
 {
     return Y;
 }
+
+std::string Vector2D::typeOfVector()
+{
+    return "I am two dimensional";
+}

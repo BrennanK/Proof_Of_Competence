@@ -8,5 +8,6 @@ protected:
 	float Z;
 public:
 	float getZ();
+	std::string typeOfVector() override;
 };
 

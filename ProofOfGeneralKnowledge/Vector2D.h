@@ -9,5 +9,6 @@ protected:
 	float Y;
 public:
 	float getY();
+	std::string typeOfVector() override;
 };
 

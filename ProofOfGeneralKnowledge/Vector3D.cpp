@@ -11,3 +11,8 @@ float Vector3D::getZ()
 {
 	return Z;
 }
+
+std::string Vector3D::typeOfVector()
+{
+	return "I am three dimensional";
+}
