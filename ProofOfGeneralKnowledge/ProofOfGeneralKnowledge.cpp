@@ -6,7 +6,7 @@
 #include "Pointers.h"
 #include "Player.h"
 #include "MorphGun.h"
-
+#include "Vector3D.h"
 
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
@@ -21,6 +21,15 @@ void Demonstration() // Used to show how constructor and destructor work
     //g1.~MorphGun(); You can manually call the destructor
 
     std::cout << g1.GetGunType() << std::endl;
+}
+
+void InheritanceDemo() // Demonstrates inherited variables and method by adding a new axis and value retrieval method per dimension
+{
+    VectorD D1 = VectorD(350.0f);
+    Vector2D D2 = Vector2D(D1.getX(), 319.0f);
+    Vector3D D3 = Vector3D(D2.getX(), D2.getY(), 709.4f);
+
+    std::cout << "3D Vector values are " << D3.getX() << ", " << D3.getY() << ", " << D3.getZ() << std::endl;
 }
 
 int main()
@@ -56,7 +65,9 @@ int main()
     //// static method and variable showcase
     //Log::GetTimesLogged();
 
-    Demonstration();
+    //Demonstration();
+
+    InheritanceDemo();
     
     std::cin.get() ; //
 }

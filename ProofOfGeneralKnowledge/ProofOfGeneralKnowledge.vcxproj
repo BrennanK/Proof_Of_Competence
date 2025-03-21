@@ -133,6 +133,9 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="ProofOfGeneralKnowledge.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
+    <ClCompile Include="VectorD.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Debugger_Practice.h" />
@@ -140,6 +143,9 @@
     <ClInclude Include="MorphGun.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Pointers.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Vector3D.h" />
+    <ClInclude Include="VectorD.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
