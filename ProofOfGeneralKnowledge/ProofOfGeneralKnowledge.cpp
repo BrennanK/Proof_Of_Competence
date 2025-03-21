@@ -51,6 +51,9 @@ void VirtualDemo()
     std::cout << p1->typeOfVector() << std::endl; // using overriding functionality via pollymorphism it will say two dimension even though the pointer is for a one dimensional vector
     std::cout << p2->typeOfVector() << std::endl; // using overriding functionality via pollymorphism it will say three dimension even though the pointer is for a two dimensional vector
     
+    p1->printClassName();
+    p2->printClassName();
+
 }
 
 int main()

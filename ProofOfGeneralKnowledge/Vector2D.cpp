@@ -15,3 +15,8 @@ std::string Vector2D::typeOfVector()
 {
     return "I am two dimensional";
 }
+
+void Vector2D::printClassName()
+{
+    std::cout << "Vector 2D Class" << std::endl;
+}

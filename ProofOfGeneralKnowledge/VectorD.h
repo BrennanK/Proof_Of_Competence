@@ -1,7 +1,9 @@
 #pragma once
 #include <iostream>
-class VectorD
+#include "PrintableInterface.h";
+class VectorD: public IPrintable
 {
+
 public:
 	VectorD() = default;
 	VectorD(float XValue);
@@ -10,5 +12,6 @@ protected:
 public:
 	float getX();
 	virtual std::string typeOfVector();
+	void printClassName() override;
 };
 

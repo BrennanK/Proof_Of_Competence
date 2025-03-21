@@ -9,5 +9,6 @@ protected:
 public:
 	float getZ();
 	std::string typeOfVector() override;
+	void printClassName() override;
 };
 

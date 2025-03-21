@@ -14,3 +14,8 @@ std::string VectorD::typeOfVector()
 {
     return "I am one dimensional";
 }
+
+void VectorD::printClassName()
+{
+    std::cout << "Vector D Class" << std::endl;
+}

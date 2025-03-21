@@ -16,3 +16,8 @@ std::string Vector3D::typeOfVector()
 {
 	return "I am three dimensional";
 }
+
+void Vector3D::printClassName()
+{
+	std::cout << "Vector 3D Class" << std::endl;
+}

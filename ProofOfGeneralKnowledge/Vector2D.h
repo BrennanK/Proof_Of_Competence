@@ -10,5 +10,6 @@ protected:
 public:
 	float getY();
 	std::string typeOfVector() override;
+	void printClassName() override;
 };
 

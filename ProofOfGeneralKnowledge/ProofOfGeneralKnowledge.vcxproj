@@ -143,6 +143,7 @@
     <ClInclude Include="MorphGun.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Pointers.h" />
+    <ClInclude Include="PrintableInterface.h" />
     <ClInclude Include="Vector2D.h" />
     <ClInclude Include="Vector3D.h" />
     <ClInclude Include="VectorD.h" />
