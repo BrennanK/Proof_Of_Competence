@@ -32,6 +32,11 @@ void InheritanceDemo() // Demonstrates inherited variables and method by adding 
     std::cout << "3D Vector values are " << D3.getX() << ", " << D3.getY() << ", " << D3.getZ() << std::endl;
 }
 
+void Print(IPrintable* obj)
+{
+    obj->printClassName();
+}
+
 void VirtualDemo()
 {
     VectorD D1 = VectorD(350.0f);
@@ -51,8 +56,9 @@ void VirtualDemo()
     std::cout << p1->typeOfVector() << std::endl; // using overriding functionality via pollymorphism it will say two dimension even though the pointer is for a one dimensional vector
     std::cout << p2->typeOfVector() << std::endl; // using overriding functionality via pollymorphism it will say three dimension even though the pointer is for a two dimensional vector
     
-    p1->printClassName();
-    p2->printClassName();
+    Print(p1);
+    Print(p2);
+    
 
 }
 
