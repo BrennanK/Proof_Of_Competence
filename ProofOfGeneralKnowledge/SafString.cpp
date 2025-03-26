@@ -11,4 +11,10 @@ void demoString(std::string& svalue)
 	y[3] = 'Y';
 	value += " start";
 	std::cout << value << std::endl;
+
+	const char* n = "Hi";
+
+	char* b = (char*)n; // This is a way to obtain and extract the value of a const char* or string in C
+
+	std::cout << b << std::endl; 
 }

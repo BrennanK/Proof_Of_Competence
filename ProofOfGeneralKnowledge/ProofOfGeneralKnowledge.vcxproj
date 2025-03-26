@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Const.cpp" />
     <ClCompile Include="Debugger_Practice.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="MorphGun.cpp" />
@@ -139,6 +140,7 @@
     <ClCompile Include="VectorD.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Const.h" />
     <ClInclude Include="Debugger_Practice.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="MorphGun.h" />
