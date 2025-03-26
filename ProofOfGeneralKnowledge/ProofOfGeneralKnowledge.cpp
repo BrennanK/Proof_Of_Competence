@@ -7,6 +7,7 @@
 #include "Player.h"
 #include "MorphGun.h"
 #include "Vector3D.h"
+#include "SafString.h"
 
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
@@ -99,6 +100,8 @@ int main()
 
     InheritanceDemo();
     VirtualDemo();
+    std::string s = std::string("Player");
+    demoString(s);
     std::cin.get() ; //
 }
 
