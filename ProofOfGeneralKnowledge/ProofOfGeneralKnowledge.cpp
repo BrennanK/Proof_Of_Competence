@@ -14,14 +14,18 @@ int Log::timesLogged = 0; // Have to add definition of static varaible for Log h
 void Demonstration() // Used to show how constructor and destructor work
 {
     MorphGun g1;
-
+    
     GunType type = GunType::AssultRifle;
+    int RIFLE_AMMO_COUNT = 100;
+
+    MorphGun g2 = MorphGun(type, RIFLE_AMMO_COUNT);
 
     // g1.SetType(type);
 
     //g1.~MorphGun(); You can manually call the destructor
 
-    std::cout << g1.GetGunType() << std::endl;
+    std::cout << "[Guntype]: " << g1.GetGunType() <<" [Ammo Count]: " << g1.GetAmmoCount() << std::endl;
+    std::cout << "[Guntype]: " << g2.GetGunType() << " [Ammo Count]: " << g2.GetAmmoCount() << std::endl;
 }
 
 void InheritanceDemo() // Demonstrates inherited variables and method by adding a new axis and value retrieval method per dimension
@@ -96,12 +100,12 @@ int main()
     //// static method and variable showcase
     //Log::GetTimesLogged();
 
-    //Demonstration();
+    Demonstration();
 
-    InheritanceDemo();
-    VirtualDemo();
-    std::string s = std::string("Player");
-    demoString(s);
+    //InheritanceDemo();
+    //VirtualDemo();
+    //std::string s = std::string("Player");
+    //demoString(s);
     std::cin.get() ; //
 }
 
