@@ -8,7 +8,7 @@
 #include "MorphGun.h"
 #include "Vector3D.h"
 #include "SafString.h"
-
+#include "TernaryExample.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -58,8 +58,8 @@ void VirtualDemo()
 
     p2 = &D3; 
     p1 = &D2; 
-    std::cout << p1->typeOfVector() << std::endl; // using overriding functionality via pollymorphism it will say two dimension even though the pointer is for a one dimensional vector
-    std::cout << p2->typeOfVector() << std::endl; // using overriding functionality via pollymorphism it will say three dimension even though the pointer is for a two dimensional vector
+    std::cout << p1->typeOfVector() << std::endl; // using overriding functionality via polymorphism it will say two dimension even though the pointer is for a one dimensional vector
+    std::cout << p2->typeOfVector() << std::endl; // using overriding functionality via polymorphism it will say three dimension even though the pointer is for a two dimensional vector
     
     Print(p1);
     Print(p2);
@@ -69,43 +69,9 @@ void VirtualDemo()
 
 int main()
 {
-    //useAPointer();
-    //int v = 5;
-
-    //PassByPointer(&v);
-    //std::cout << v << std::endl;
-    
-    //PassByReference(v);
-    //std::cout << v << std::endl;
-
-   /* Player p;
-    Position3D ppos;
-    ppos.x = 100;
-    ppos.y = 200;
-    ppos.z = 300;
-    
-    p.setPlayerPosition(ppos);
-
-    std::cout<<"X: " << p.getPosition().x << " Y: " << p.getPosition().y << " Z: " << p.getPosition().z << std::endl;
-    */
-
-    // showcasing that we can use both static and non-static methods in a class
-
-    //Log log; // non static instance with non-static methods
-
-    //log.WarningLevel(Level::LevelInfo); 
-    //log.Info("Hello");
-    //log.Error("Hello");
-    //
-    //// static method and variable showcase
-    //Log::GetTimesLogged();
-
-    Demonstration();
-
-    //InheritanceDemo();
-    //VirtualDemo();
-    //std::string s = std::string("Player");
-    //demoString(s);
+    int val = 12;
+    EvenOrOdd(val);
+  
     std::cin.get() ; //
 }
 
