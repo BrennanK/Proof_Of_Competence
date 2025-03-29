@@ -40,3 +40,37 @@ void CreateAndInstantiateObjectDemo()
 
 	j2.SetSpeed(currentSpeed);
 }
+
+void NewRules()
+{
+	/*
+		Usage of the new Keyword does the following
+		1) Calls C method malloc to allocate memory for our pointer
+		2) For objects calls the constructor for the object
+		3) For array initialization instead of finding in ths case 25 4 byte block memory addreses lined up it instead finds a single 100 byte block instead with a single memory address 
+	*/
+	float f = 48.025f;
+
+	float* fp = new float; 
+
+	*fp = f;
+
+	JetBoard* jArray = new JetBoard[25];
+
+	std::cout << *fp << std::endl;
+
+	std::cout << sizeof(JetBoard) * 25 << " bytes" << std::endl;
+
+	/*
+		Usage of the delete Keyword does the following
+		1) Calls C method free to de-allocate memory for our pointer
+		2) For objects calls the destructor for the object
+		3) For array initialization instead of doing a simple "delete" we do a "delete[]" to designate an array of memory to be deallocated
+	*/
+
+
+	delete fp;
+	delete[] jArray;
+
+	std::cout << "End method" << std::endl;
+}

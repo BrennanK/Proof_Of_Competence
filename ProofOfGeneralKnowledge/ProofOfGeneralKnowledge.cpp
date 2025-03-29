@@ -70,7 +70,7 @@ void VirtualDemo()
 
 int main()
 {
-    CreateAndInstantiateObjectDemo();
+    NewRules();
   
     std::cin.get() ; //
 }
