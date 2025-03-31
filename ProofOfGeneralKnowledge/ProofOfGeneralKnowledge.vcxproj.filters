@@ -95,5 +95,8 @@
     <ClInclude Include="Instantiate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OverloadedOperator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

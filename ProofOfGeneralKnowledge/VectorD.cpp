@@ -1,9 +1,6 @@
 #include "VectorD.h"
 
-VectorD::VectorD(float XValue)
-{
-    X = XValue;
-}
+
 
 float VectorD::getX()
 {
@@ -18,4 +15,14 @@ std::string VectorD::typeOfVector()
 void VectorD::printClassName()
 {
     std::cout << "Vector D Class" << std::endl;
+}
+
+VectorD VectorD::operator+(const VectorD& vec) const
+{
+    return X + vec.X;
+}
+
+void VectorD::printString()
+{
+    std::cout << "Vector X: " << X << std::endl;
 }

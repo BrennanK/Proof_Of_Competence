@@ -5,13 +5,15 @@ class VectorD: public IPrintable
 {
 
 public:
-	VectorD() = default;
-	VectorD(float XValue);
+	VectorD() :X(0.0f) {};
+	VectorD(float XValue) :X(XValue) {};
 protected:
-	float X;
+	float X=0.0f;
 public:
 	float getX();
-	virtual std::string typeOfVector();
+	virtual std::string typeOfVector(); // In base class put virtual keyword to create a vtable for overriding methods in subclasses
 	void printClassName() override;
+	VectorD operator+(const VectorD & vec) const;
+	virtual void printString();
 };
 

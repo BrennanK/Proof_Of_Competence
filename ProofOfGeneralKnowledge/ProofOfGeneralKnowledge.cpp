@@ -6,10 +6,10 @@
 #include "Pointers.h"
 #include "Player.h"
 #include "MorphGun.h"
-#include "Vector3D.h"
 #include "SafString.h"
 #include "TernaryExample.h"
 #include "Instantiate.h"
+#include "OverloadedOperator.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -71,7 +71,8 @@ void VirtualDemo()
 int main()
 {
     //NewRules();
-    CreateAndInstantiateObjectDemo();
+    //CreateAndInstantiateObjectDemo();
+    OperatorOverloadDemo();
     std::cin.get() ; //
 }
 
