@@ -5,11 +5,15 @@ class JetBoard
 {
 private:
 	int speed;
+	int M_SPEED;
 public: 
-	JetBoard() :speed(10) {};
-	JetBoard(int& mph) : speed(mph) { speed = mph;};
+	JetBoard() :speed(10),M_SPEED(100) {};
+	explicit JetBoard(int& mphs): speed(mphs),M_SPEED(120) {};
+	JetBoard(int& mph,int& max) : speed(mph),M_SPEED(max) {};
 	int GetSpeed() const { return speed;};
 	void SetSpeed(int& spvalue) { speed = spvalue;};
+	int GetMSpeed() const { return M_SPEED; };
+	void SetMSpeed(int& mpvalue) { M_SPEED = mpvalue;};
 };
 
 void CreateAndInstantiateObjectDemo()
@@ -17,10 +21,10 @@ void CreateAndInstantiateObjectDemo()
 	int currentSpeed = 90;
 	// Examples of Stack Allocation for Objects, where j1 and j2 will live as long as this method and be cleaned up automatically 
 	JetBoard j1;
-	JetBoard j2 = JetBoard(currentSpeed);
+	JetBoard j2 = JetBoard(currentSpeed,currentSpeed);
 
 	// Example of Heap Allocation, where j3 will live as long as the program or until manually deleted/freed
-	JetBoard* j3 = new JetBoard(currentSpeed);
+	JetBoard* j3 = new JetBoard(currentSpeed,currentSpeed);
 	//JetBoard j3 = new JetBoard(currentSpeed); // This line will have an error as the usage of the new keyword can only be use to create a pointer
 	
 	std::cout << "[Board 1]" << j1.GetSpeed() << std::endl;
@@ -73,4 +77,16 @@ void NewRules()
 	delete[] jArray;
 
 	std::cout << "End method" << std::endl;
+}
+void ImplicitAndExplicit()
+{
+	// Implicit conversion allows for alternative shorthand ways to initialize objects examples below
+	int a = 80;
+	int b = 300;
+	
+	JetBoard j(a, b);
+
+	//JetBoard j2 = a; by putting explicit in front of the constructor we disable implicit conversion for that construct making the below statement have a compile error
+	JetBoard j2(b); // This method of instantiation is still fine
+	JetBoard j3 = (JetBoard)b; // Casting method also works
 }
