@@ -11,6 +11,7 @@
 #include "Instantiate.h"
 #include "OverloadedOperator.h"
 #include "StackHeapNotes.h"
+#include "SmartPointersNotes.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -72,9 +73,15 @@ void VirtualDemo()
 int main()
 {
     //NewRules();
+    
     //CreateAndInstantiateObjectDemo();
+    
     //OperatorOverloadDemo();
-    StackNotes();
+    
+    //StackNotes();
+    
+    //UniquePointerDemo();
+    SharedPointerDemo();
     std::cin.get() ; //
 }
 

@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Const.cpp" />
     <ClCompile Include="Debugger_Practice.cpp" />
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Instantiate.cpp" />
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="MorphGun.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="ProofOfGeneralKnowledge.cpp" />
     <ClCompile Include="SafString.cpp" />
+    <ClCompile Include="SmartPointersNotes.cpp" />
     <ClCompile Include="StackHeapNotes.cpp" />
     <ClCompile Include="TernaryExample.cpp" />
     <ClCompile Include="Vector2D.cpp" />
@@ -145,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="Const.h" />
     <ClInclude Include="Debugger_Practice.h" />
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="Instantiate.h" />
     <ClInclude Include="Logger.h" />
     <ClInclude Include="MorphGun.h" />
@@ -153,6 +156,7 @@
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="PrintableInterface.h" />
     <ClInclude Include="SafString.h" />
+    <ClInclude Include="SmartPointersNotes.h" />
     <ClInclude Include="StackHeapNotes.h" />
     <ClInclude Include="TernaryExample.h" />
     <ClInclude Include="Vector2D.h" />

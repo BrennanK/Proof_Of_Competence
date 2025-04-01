@@ -1,5 +1,5 @@
 #include "StackHeapNotes.h"
-#include <iostream>
+
 
 
 
@@ -38,12 +38,4 @@ void StackNotes()
 	
 }
 
-Entity::Entity()
-{
-	std::cout << "Entity created" << std::endl;
-}
 
-Entity::~Entity()
-{
-	std::cout << "Entity destroyed" << std::endl;
-}

@@ -1,10 +1,5 @@
 #pragma once
-class Entity
-{
-public:
-	Entity();
-	~Entity();
-};
+#include "Entity.h"
 class ScpPointer
 {
 private:
