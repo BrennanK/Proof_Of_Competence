@@ -10,6 +10,7 @@
 #include "TernaryExample.h"
 #include "Instantiate.h"
 #include "OverloadedOperator.h"
+#include "StackHeapNotes.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -72,7 +73,8 @@ int main()
 {
     //NewRules();
     //CreateAndInstantiateObjectDemo();
-    OperatorOverloadDemo();
+    //OperatorOverloadDemo();
+    StackNotes();
     std::cin.get() ; //
 }
 

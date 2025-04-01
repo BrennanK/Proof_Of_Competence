@@ -136,6 +136,7 @@
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="ProofOfGeneralKnowledge.cpp" />
     <ClCompile Include="SafString.cpp" />
+    <ClCompile Include="StackHeapNotes.cpp" />
     <ClCompile Include="TernaryExample.cpp" />
     <ClCompile Include="Vector2D.cpp" />
     <ClCompile Include="Vector3D.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="Pointers.h" />
     <ClInclude Include="PrintableInterface.h" />
     <ClInclude Include="SafString.h" />
+    <ClInclude Include="StackHeapNotes.h" />
     <ClInclude Include="TernaryExample.h" />
     <ClInclude Include="Vector2D.h" />
     <ClInclude Include="Vector3D.h" />
