@@ -81,7 +81,9 @@ int main()
     //StackNotes();
     
     //UniquePointerDemo();
-    SharedPointerDemo();
+    //SharedPointerDemo();
+    demoSelfMadeStringClass();
+
     std::cin.get() ; //
 }
 
