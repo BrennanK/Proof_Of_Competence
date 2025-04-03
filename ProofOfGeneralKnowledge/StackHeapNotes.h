@@ -8,5 +8,9 @@ private:
 public:
 	ScpPointer(Entity* value);
 	~ScpPointer();
+	Entity* getEntity();
+	Entity* operator->();
 };
 void StackNotes();
+void ArrowOperatorExample();
+int OffsetInMemoryExample();

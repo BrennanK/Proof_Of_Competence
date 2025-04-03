@@ -16,6 +16,16 @@ ScpPointer::~ScpPointer()
 	//std::cout << "ScpPointer destroyed" << std::endl;
 }
 
+Entity* ScpPointer::getEntity()
+{
+	return examplePointer;
+}
+
+Entity* ScpPointer::operator->()
+{
+	return examplePointer;
+}
+
 
 void StackNotes()
 {
@@ -36,6 +46,24 @@ void StackNotes()
 		ScpPointer p1 = new Entity();
 	}
 	
+}
+
+void ArrowOperatorExample()
+{
+	ScpPointer ptr = new Entity();
+
+	// We could simply access the entity pointer through some bulky means like the below commented line but this is bulky
+	//ptr.getEntity()->Print();
+
+	//Instead we can overload the arrow operator -> and get a shorter cleaner result
+	ptr->Print();
+}
+
+// This is a fun little trick with the arrow operator that lets you see the offset in memory between variables which can be useful for serialization
+int OffsetInMemoryExample()
+{
+	int offset = (int)&((OffsetEx*)nullptr)->c;
+	return offset;
 }
 
 

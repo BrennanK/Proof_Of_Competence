@@ -82,8 +82,11 @@ int main()
     
     //UniquePointerDemo();
     //SharedPointerDemo();
-    demoSelfMadeStringClass();
+    //demoSelfMadeStringClass();
+    ArrowOperatorExample();
 
+    int g = OffsetInMemoryExample();
+    std::cout << g << std::endl;
     std::cin.get() ; //
 }
 

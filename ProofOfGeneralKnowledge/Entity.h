@@ -6,3 +6,8 @@ public:
 	~Entity();
 	void Print();
 };
+
+struct OffsetEx
+{
+	float a, b, c;
+};

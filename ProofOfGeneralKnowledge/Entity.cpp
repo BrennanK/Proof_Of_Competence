@@ -12,5 +12,5 @@ Entity::~Entity()
 
 void Entity::Print()
 {
-
+	std::cout << "Entity says Hello" << std::endl;
 }
