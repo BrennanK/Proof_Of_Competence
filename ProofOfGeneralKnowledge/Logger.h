@@ -20,5 +20,5 @@ public:
     void Error(const char* message);
     void Info(const char* message);
     static void GetTimesLogged();
-
+    int staticLocalExample();
 };

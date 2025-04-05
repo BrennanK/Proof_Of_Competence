@@ -88,8 +88,12 @@ int main()
 
     //int g = OffsetInMemoryExample();
     //std::cout << g << std::endl;
-    STDVectorNotes();
-
+    //STDVectorNotes();
+    Log l;
+    std::cout << l.staticLocalExample() << std::endl;
+    std::cout << l.staticLocalExample() << std::endl;
+    std::cout << l.staticLocalExample() << std::endl;
+    std::cout << l.staticLocalExample() << std::endl;
     std::cin.get() ; //
 }
 

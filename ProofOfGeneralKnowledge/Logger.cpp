@@ -37,4 +37,11 @@ void Log::GetTimesLogged()
 	std::cout<<"Number of times Logged is: "<<timesLogged<<std::endl;
 }
 
+int Log::staticLocalExample()
+{
+	static int times = 0;
+	times++;
+	return times;
+}
+
 
