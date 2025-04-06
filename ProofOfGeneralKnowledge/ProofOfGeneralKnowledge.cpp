@@ -13,6 +13,7 @@
 #include "Source/Headers/StackHeapNotes.h"
 #include "Source/Headers/SmartPointersNotes.h"
 #include "Source/Headers/OptimizedVector.h"
+#include "GLFW/glfw3.h";
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -89,11 +90,8 @@ int main()
     //int g = OffsetInMemoryExample();
     //std::cout << g << std::endl;
     //STDVectorNotes();
-    Log l;
-    std::cout << l.staticLocalExample() << std::endl;
-    std::cout << l.staticLocalExample() << std::endl;
-    std::cout << l.staticLocalExample() << std::endl;
-    std::cout << l.staticLocalExample() << std::endl;
+    int init = glfwInit();
+    std::cout << init << std::endl;
     std::cin.get() ; //
 }
 
