@@ -1,4 +1,4 @@
-#include "Logger.h"
+#include "../Headers/Logger.h"
 
 void Log::WarningLevel(Level level)
 {
@@ -41,6 +41,7 @@ int Log::staticLocalExample()
 {
 	static int times = 0;
 	times++;
+	//times = 0;
 	return times;
 }
 

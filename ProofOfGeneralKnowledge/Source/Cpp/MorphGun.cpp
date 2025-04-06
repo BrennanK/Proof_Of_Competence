@@ -1,4 +1,4 @@
-#include "MorphGun.h"
+#include "../Headers/MorphGun.h"
 #include <iostream>
 MorphGun::MorphGun(): AmmoCount(50), CurrentMode(Shotgun)
 {

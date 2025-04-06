@@ -1,4 +1,4 @@
-#include "OptimizedVector.h"
+#include "../Headers/OptimizedVector.h"
 #include <vector>
 void STDVectorNotes()
 {
@@ -16,9 +16,9 @@ void STDVectorNotes()
 	en.reserve(3);
 
 
-	en.emplace_back(4,5,6);
-	en.emplace_back(1,2,3);
-	en.emplace_back(7,8,9);
+	en.emplace_back(4, 5, 6);
+	en.emplace_back(1, 2, 3);
+	en.emplace_back(7, 8, 9);
 	/*
 	for (int i = 0; i < en.size(); i++)
 	{

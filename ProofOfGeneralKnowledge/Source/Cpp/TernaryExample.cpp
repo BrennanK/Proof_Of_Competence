@@ -1,4 +1,4 @@
-#include "TernaryExample.h"
+#include "../Headers/TernaryExample.h"
 #include<string>
 #include <iostream>
 void EvenOrOdd(int& value)

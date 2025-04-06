@@ -1,18 +1,18 @@
 // ProofOfGeneralKnowledge.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "Logger.h"
-#include "Debugger_Practice.h"
-#include "Pointers.h"
-#include "Player.h"
-#include "MorphGun.h"
-#include "SafString.h"
-#include "TernaryExample.h"
-#include "Instantiate.h"
-#include "OverloadedOperator.h"
-#include "StackHeapNotes.h"
-#include "SmartPointersNotes.h"
-#include "OptimizedVector.h"
+#include "Source/Headers/Logger.h"
+#include "Source/Headers/Debugger_Practice.h"
+#include "Source/Headers/Pointers.h"
+#include "Source/Headers/Player.h"
+#include "Source/Headers/MorphGun.h"
+#include "Source/Headers/SafString.h"
+#include "Source/Headers/TernaryExample.h"
+#include "Source/Headers/Instantiate.h"
+#include "Source/Headers/OverloadedOperator.h"
+#include "Source/Headers/StackHeapNotes.h"
+#include "Source/Headers/SmartPointersNotes.h"
+#include "Source/Headers/OptimizedVector.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work

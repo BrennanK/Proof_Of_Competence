@@ -1,4 +1,4 @@
-#include "SmartPointersNotes.h"
+#include "../Headers/SmartPointersNotes.h"
 #include <memory>
 void UniquePointerDemo()
 {

@@ -18,108 +18,108 @@
     <ClCompile Include="ProofOfGeneralKnowledge.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Debugger_Practice.cpp">
+    <ClCompile Include="Source\Cpp\Debugger_Practice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pointers.cpp">
+    <ClCompile Include="Source\Cpp\Pointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="Source\Cpp\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Logger.cpp">
+    <ClCompile Include="Source\Cpp\Logger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MorphGun.cpp">
+    <ClCompile Include="Source\Cpp\MorphGun.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VectorD.cpp">
+    <ClCompile Include="Source\Cpp\VectorD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vector2D.cpp">
+    <ClCompile Include="Source\Cpp\Vector2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vector3D.cpp">
+    <ClCompile Include="Source\Cpp\Vector3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SafString.cpp">
+    <ClCompile Include="Source\Cpp\SafString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Const.cpp">
+    <ClCompile Include="Source\Cpp\Const.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TernaryExample.cpp">
+    <ClCompile Include="Source\Cpp\TernaryExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Instantiate.cpp">
+    <ClCompile Include="Source\Cpp\Instantiate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StackHeapNotes.cpp">
+    <ClCompile Include="Source\Cpp\StackHeapNotes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Entity.cpp">
+    <ClCompile Include="Source\Cpp\Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SmartPointersNotes.cpp">
+    <ClCompile Include="Source\Cpp\SmartPointersNotes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OptimizedVector.cpp">
+    <ClCompile Include="Source\Cpp\OptimizedVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Debugger_Practice.h">
+    <ClInclude Include="Source\Headers\Debugger_Practice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Pointers.h">
+    <ClInclude Include="Source\Headers\Pointers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
+    <ClInclude Include="Source\Headers\Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Logger.h">
+    <ClInclude Include="Source\Headers\Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MorphGun.h">
+    <ClInclude Include="Source\Headers\MorphGun.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VectorD.h">
+    <ClInclude Include="Source\Headers\VectorD.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Vector2D.h">
+    <ClInclude Include="Source\Headers\Vector2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Vector3D.h">
+    <ClInclude Include="Source\Headers\Vector3D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PrintableInterface.h">
+    <ClInclude Include="Source\Headers\PrintableInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SafString.h">
+    <ClInclude Include="Source\Headers\SafString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Const.h">
+    <ClInclude Include="Source\Headers\Const.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TernaryExample.h">
+    <ClInclude Include="Source\Headers\TernaryExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Instantiate.h">
+    <ClInclude Include="Source\Headers\Instantiate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OverloadedOperator.h">
+    <ClInclude Include="Source\Headers\OverloadedOperator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StackHeapNotes.h">
+    <ClInclude Include="Source\Headers\StackHeapNotes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Entity.h">
+    <ClInclude Include="Source\Headers\Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SmartPointersNotes.h">
+    <ClInclude Include="Source\Headers\SmartPointersNotes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OptimizedVector.h">
+    <ClInclude Include="Source\Headers\OptimizedVector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

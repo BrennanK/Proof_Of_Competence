@@ -127,43 +127,43 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Const.cpp" />
-    <ClCompile Include="Debugger_Practice.cpp" />
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="Instantiate.cpp" />
-    <ClCompile Include="Logger.cpp" />
-    <ClCompile Include="MorphGun.cpp" />
-    <ClCompile Include="OptimizedVector.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Pointers.cpp" />
+    <ClCompile Include="Source\Cpp\Const.cpp" />
+    <ClCompile Include="Source\Cpp\Debugger_Practice.cpp" />
+    <ClCompile Include="Source\Cpp\Entity.cpp" />
+    <ClCompile Include="Source\Cpp\Instantiate.cpp" />
+    <ClCompile Include="Source\Cpp\Logger.cpp" />
+    <ClCompile Include="Source\Cpp\MorphGun.cpp" />
+    <ClCompile Include="Source\Cpp\OptimizedVector.cpp" />
+    <ClCompile Include="Source\Cpp\Player.cpp" />
+    <ClCompile Include="Source\Cpp\Pointers.cpp" />
     <ClCompile Include="ProofOfGeneralKnowledge.cpp" />
-    <ClCompile Include="SafString.cpp" />
-    <ClCompile Include="SmartPointersNotes.cpp" />
-    <ClCompile Include="StackHeapNotes.cpp" />
-    <ClCompile Include="TernaryExample.cpp" />
-    <ClCompile Include="Vector2D.cpp" />
-    <ClCompile Include="Vector3D.cpp" />
-    <ClCompile Include="VectorD.cpp" />
+    <ClCompile Include="Source\Cpp\SafString.cpp" />
+    <ClCompile Include="Source\Cpp\SmartPointersNotes.cpp" />
+    <ClCompile Include="Source\Cpp\StackHeapNotes.cpp" />
+    <ClCompile Include="Source\Cpp\TernaryExample.cpp" />
+    <ClCompile Include="Source\Cpp\Vector2D.cpp" />
+    <ClCompile Include="Source\Cpp\Vector3D.cpp" />
+    <ClCompile Include="Source\Cpp\VectorD.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Const.h" />
-    <ClInclude Include="Debugger_Practice.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="Instantiate.h" />
-    <ClInclude Include="Logger.h" />
-    <ClInclude Include="MorphGun.h" />
-    <ClInclude Include="OptimizedVector.h" />
-    <ClInclude Include="OverloadedOperator.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Pointers.h" />
-    <ClInclude Include="PrintableInterface.h" />
-    <ClInclude Include="SafString.h" />
-    <ClInclude Include="SmartPointersNotes.h" />
-    <ClInclude Include="StackHeapNotes.h" />
-    <ClInclude Include="TernaryExample.h" />
-    <ClInclude Include="Vector2D.h" />
-    <ClInclude Include="Vector3D.h" />
-    <ClInclude Include="VectorD.h" />
+    <ClInclude Include="Source\Headers\Const.h" />
+    <ClInclude Include="Source\Headers\Debugger_Practice.h" />
+    <ClInclude Include="Source\Headers\Entity.h" />
+    <ClInclude Include="Source\Headers\Instantiate.h" />
+    <ClInclude Include="Source\Headers\Logger.h" />
+    <ClInclude Include="Source\Headers\MorphGun.h" />
+    <ClInclude Include="Source\Headers\OptimizedVector.h" />
+    <ClInclude Include="Source\Headers\OverloadedOperator.h" />
+    <ClInclude Include="Source\Headers\Player.h" />
+    <ClInclude Include="Source\Headers\Pointers.h" />
+    <ClInclude Include="Source\Headers\PrintableInterface.h" />
+    <ClInclude Include="Source\Headers\SafString.h" />
+    <ClInclude Include="Source\Headers\SmartPointersNotes.h" />
+    <ClInclude Include="Source\Headers\StackHeapNotes.h" />
+    <ClInclude Include="Source\Headers\TernaryExample.h" />
+    <ClInclude Include="Source\Headers\Vector2D.h" />
+    <ClInclude Include="Source\Headers\Vector3D.h" />
+    <ClInclude Include="Source\Headers\VectorD.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
