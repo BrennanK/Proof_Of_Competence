@@ -14,6 +14,7 @@
 #include "Source/Headers/SmartPointersNotes.h"
 #include "Source/Headers/OptimizedVector.h"
 #include "GLFW/glfw3.h";
+#include"Engine.h";
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -92,6 +93,7 @@ int main()
     //STDVectorNotes();
     int init = glfwInit();
     std::cout << init << std::endl;
+    Engine::PrintMathMessage();
     std::cin.get() ; //
 }
 
