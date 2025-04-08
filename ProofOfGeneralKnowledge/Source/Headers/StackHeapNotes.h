@@ -14,3 +14,4 @@ public:
 void StackNotes();
 void ArrowOperatorExample();
 int OffsetInMemoryExample();
+void StackVsHeap();

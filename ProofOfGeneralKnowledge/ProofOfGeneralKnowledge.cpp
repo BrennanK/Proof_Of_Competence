@@ -96,12 +96,14 @@ int main()
     //std::cout << init << std::endl;
     //Engine::PrintMathMessage();
 
-    PrintMultiTypes(6);
-    PrintMultiTypes("J");
+   // PrintMultiTypes(6);
+    //PrintMultiTypes("J");
 
-    CustomArray<std::string, 10> myC;
+   // CustomArray<std::string, 10> myC;
 
-    std::cout << "Size of Custom Array is " << myC.GetSize()<< std::endl;;
+    //std::cout << "Size of Custom Array is " << myC.GetSize()<< std::endl;;
+
+    StackVsHeap();
 
     std::cin.get() ; //
 }
