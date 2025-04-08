@@ -13,8 +13,9 @@
 #include "Source/Headers/StackHeapNotes.h"
 #include "Source/Headers/SmartPointersNotes.h"
 #include "Source/Headers/OptimizedVector.h"
-#include "GLFW/glfw3.h";
-#include"Engine.h";
+#include "GLFW/glfw3.h"
+#include"Engine.h"
+#include "Source/Headers/TemplateNotes.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -91,9 +92,17 @@ int main()
     //int g = OffsetInMemoryExample();
     //std::cout << g << std::endl;
     //STDVectorNotes();
-    int init = glfwInit();
-    std::cout << init << std::endl;
-    Engine::PrintMathMessage();
+    //int init = glfwInit();
+    //std::cout << init << std::endl;
+    //Engine::PrintMathMessage();
+
+    PrintMultiTypes(6);
+    PrintMultiTypes("J");
+
+    CustomArray<std::string, 10> myC;
+
+    std::cout << "Size of Custom Array is " << myC.GetSize()<< std::endl;;
+
     std::cin.get() ; //
 }
 

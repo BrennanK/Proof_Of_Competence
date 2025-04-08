@@ -66,6 +66,9 @@
     <ClCompile Include="Source\Cpp\OptimizedVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Headers\TemplateNotes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Headers\Debugger_Practice.h">
@@ -120,6 +123,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Headers\OptimizedVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\TemplateNotes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
