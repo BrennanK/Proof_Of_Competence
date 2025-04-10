@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Cpp\AutoNotes.cpp" />
     <ClCompile Include="Source\Cpp\Const.cpp" />
     <ClCompile Include="Source\Cpp\Debugger_Practice.cpp" />
     <ClCompile Include="Source\Cpp\Entity.cpp" />
@@ -159,6 +160,7 @@
     <ClCompile Include="Source\Cpp\TemplateNotes.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\Headers\AutoNotes.h" />
     <ClInclude Include="Source\Headers\Const.h" />
     <ClInclude Include="Source\Headers\Debugger_Practice.h" />
     <ClInclude Include="Source\Headers\Entity.h" />
