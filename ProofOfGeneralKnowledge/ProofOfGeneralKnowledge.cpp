@@ -16,6 +16,7 @@
 #include "GLFW/glfw3.h"
 #include"Engine.h"
 #include "Source/Headers/TemplateNotes.h"
+#include "Source/Headers/MacroEx.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -103,7 +104,8 @@ int main()
 
     //std::cout << "Size of Custom Array is " << myC.GetSize()<< std::endl;;
 
-    StackVsHeap();
+    //StackVsHeap();
+    LOG("Hey");
 
     std::cin.get() ; //
 }

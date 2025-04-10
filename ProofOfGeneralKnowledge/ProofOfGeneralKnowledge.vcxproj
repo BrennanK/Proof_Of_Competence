@@ -156,7 +156,7 @@
     <ClCompile Include="Source\Cpp\Vector2D.cpp" />
     <ClCompile Include="Source\Cpp\Vector3D.cpp" />
     <ClCompile Include="Source\Cpp\VectorD.cpp" />
-    <ClCompile Include="Source\Headers\TemplateNotes.cpp" />
+    <ClCompile Include="Source\Cpp\TemplateNotes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Headers\Const.h" />
@@ -164,6 +164,7 @@
     <ClInclude Include="Source\Headers\Entity.h" />
     <ClInclude Include="Source\Headers\Instantiate.h" />
     <ClInclude Include="Source\Headers\Logger.h" />
+    <ClInclude Include="Source\Headers\MacroEx.h" />
     <ClInclude Include="Source\Headers\MorphGun.h" />
     <ClInclude Include="Source\Headers\OptimizedVector.h" />
     <ClInclude Include="Source\Headers\OverloadedOperator.h" />
