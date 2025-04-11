@@ -143,6 +143,7 @@
     <ClCompile Include="Source\Cpp\Const.cpp" />
     <ClCompile Include="Source\Cpp\Debugger_Practice.cpp" />
     <ClCompile Include="Source\Cpp\Entity.cpp" />
+    <ClCompile Include="Source\Cpp\FunctionPointers.cpp" />
     <ClCompile Include="Source\Cpp\Instantiate.cpp" />
     <ClCompile Include="Source\Cpp\Logger.cpp" />
     <ClCompile Include="Source\Cpp\MorphGun.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Source\Headers\Const.h" />
     <ClInclude Include="Source\Headers\Debugger_Practice.h" />
     <ClInclude Include="Source\Headers\Entity.h" />
+    <ClInclude Include="Source\Headers\FunctionPointers.h" />
     <ClInclude Include="Source\Headers\Instantiate.h" />
     <ClInclude Include="Source\Headers\Logger.h" />
     <ClInclude Include="Source\Headers\MacroEx.h" />
