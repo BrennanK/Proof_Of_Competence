@@ -18,6 +18,7 @@
 #include "Source/Headers/TemplateNotes.h"
 #include "Source/Headers/MacroEx.h"
 #include "Source/Headers/AutoNotes.h"
+#include "Source/Headers/StdArray.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -107,7 +108,8 @@ int main()
 
     //StackVsHeap();
     //LOG("Hey");
-    AutoNotes();
+    //AutoNotes();
+    StdArrayExample();
     std::cin.get() ; //
 }
 

@@ -153,6 +153,7 @@
     <ClCompile Include="Source\Cpp\SafString.cpp" />
     <ClCompile Include="Source\Cpp\SmartPointersNotes.cpp" />
     <ClCompile Include="Source\Cpp\StackHeapNotes.cpp" />
+    <ClCompile Include="Source\Cpp\StdArray.cpp" />
     <ClCompile Include="Source\Cpp\TernaryExample.cpp" />
     <ClCompile Include="Source\Cpp\Vector2D.cpp" />
     <ClCompile Include="Source\Cpp\Vector3D.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="Source\Headers\SafString.h" />
     <ClInclude Include="Source\Headers\SmartPointersNotes.h" />
     <ClInclude Include="Source\Headers\StackHeapNotes.h" />
+    <ClInclude Include="Source\Headers\StdArray.h" />
     <ClInclude Include="Source\Headers\TemplateNotes.h" />
     <ClInclude Include="Source\Headers\TernaryExample.h" />
     <ClInclude Include="Source\Headers\Vector2D.h" />
