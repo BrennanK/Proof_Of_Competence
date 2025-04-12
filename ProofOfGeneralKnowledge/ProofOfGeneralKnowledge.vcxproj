@@ -145,6 +145,7 @@
     <ClCompile Include="Source\Cpp\Entity.cpp" />
     <ClCompile Include="Source\Cpp\FunctionPointers.cpp" />
     <ClCompile Include="Source\Cpp\Instantiate.cpp" />
+    <ClCompile Include="Source\Cpp\LambdaNotes.cpp" />
     <ClCompile Include="Source\Cpp\Logger.cpp" />
     <ClCompile Include="Source\Cpp\MorphGun.cpp" />
     <ClCompile Include="Source\Cpp\OptimizedVector.cpp" />
@@ -168,6 +169,7 @@
     <ClInclude Include="Source\Headers\Entity.h" />
     <ClInclude Include="Source\Headers\FunctionPointers.h" />
     <ClInclude Include="Source\Headers\Instantiate.h" />
+    <ClInclude Include="Source\Headers\LambdaNotes.h" />
     <ClInclude Include="Source\Headers\Logger.h" />
     <ClInclude Include="Source\Headers\MacroEx.h" />
     <ClInclude Include="Source\Headers\MorphGun.h" />

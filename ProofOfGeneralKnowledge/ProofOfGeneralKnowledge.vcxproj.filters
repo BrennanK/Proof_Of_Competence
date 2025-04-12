@@ -78,6 +78,9 @@
     <ClCompile Include="Source\Cpp\FunctionPointers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Cpp\LambdaNotes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Headers\Debugger_Practice.h">
@@ -147,6 +150,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Source\Headers\FunctionPointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Headers\LambdaNotes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
