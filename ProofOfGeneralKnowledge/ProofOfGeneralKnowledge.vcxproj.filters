@@ -155,5 +155,8 @@
     <ClInclude Include="Source\Headers\LambdaNotes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\NamespaceNotes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

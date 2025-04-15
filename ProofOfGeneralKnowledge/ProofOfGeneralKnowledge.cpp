@@ -21,6 +21,7 @@
 #include "Source/Headers/StdArray.h"
 #include "Source/Headers/FunctionPointers.h"
 #include "Source/Headers/LambdaNotes.h"
+#include "Source/Headers/NamespaceNotes.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -114,8 +115,8 @@ int main()
     //StdArrayExample();
     //FunctionPointerExample();
 
-    LambdaNotes();
-
+    //LambdaNotes();
+    NamespaceExample();
     std::cin.get() ; //
 }
 

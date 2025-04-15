@@ -173,6 +173,7 @@
     <ClInclude Include="Source\Headers\Logger.h" />
     <ClInclude Include="Source\Headers\MacroEx.h" />
     <ClInclude Include="Source\Headers\MorphGun.h" />
+    <ClInclude Include="Source\Headers\NamespaceNotes.h" />
     <ClInclude Include="Source\Headers\OptimizedVector.h" />
     <ClInclude Include="Source\Headers\OverloadedOperator.h" />
     <ClInclude Include="Source\Headers\Player.h" />
