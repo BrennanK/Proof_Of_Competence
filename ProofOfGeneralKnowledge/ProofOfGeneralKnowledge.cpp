@@ -24,6 +24,7 @@
 #include "Source/Headers/NamespaceNotes.h"
 #include "Source/Headers/ThreadNotes.h"
 #include "Source/Headers/TimingNotes.h"
+#include "Source/Headers/MultiDimensionalArrays.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -121,7 +122,8 @@ int main()
     //NamespaceExample();
     //ThreadExample();
 
-    TimingNotes();
+    //TimingNotes();
+    MultiDimensionalExample();
     std::cin.get() ;
 }
 

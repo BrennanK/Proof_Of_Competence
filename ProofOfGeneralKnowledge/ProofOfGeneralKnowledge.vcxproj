@@ -148,6 +148,7 @@
     <ClCompile Include="Source\Cpp\LambdaNotes.cpp" />
     <ClCompile Include="Source\Cpp\Logger.cpp" />
     <ClCompile Include="Source\Cpp\MorphGun.cpp" />
+    <ClCompile Include="Source\Cpp\MultiDimensionalArrays.cpp" />
     <ClCompile Include="Source\Cpp\OptimizedVector.cpp" />
     <ClCompile Include="Source\Cpp\Player.cpp" />
     <ClCompile Include="Source\Cpp\Pointers.cpp" />
@@ -175,6 +176,7 @@
     <ClInclude Include="Source\Headers\Logger.h" />
     <ClInclude Include="Source\Headers\MacroEx.h" />
     <ClInclude Include="Source\Headers\MorphGun.h" />
+    <ClInclude Include="Source\Headers\MultiDimensionalArrays.h" />
     <ClInclude Include="Source\Headers\NamespaceNotes.h" />
     <ClInclude Include="Source\Headers\OptimizedVector.h" />
     <ClInclude Include="Source\Headers\OverloadedOperator.h" />
