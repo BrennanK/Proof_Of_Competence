@@ -164,6 +164,7 @@
     <ClCompile Include="Source\Cpp\Vector3D.cpp" />
     <ClCompile Include="Source\Cpp\VectorD.cpp" />
     <ClCompile Include="Source\Cpp\TemplateNotes.cpp" />
+    <ClCompile Include="Source\Cpp\SortingNotes.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Headers\AutoNotes.h" />
@@ -185,6 +186,7 @@
     <ClInclude Include="Source\Headers\PrintableInterface.h" />
     <ClInclude Include="Source\Headers\SafString.h" />
     <ClInclude Include="Source\Headers\SmartPointersNotes.h" />
+    <ClInclude Include="Source\Headers\SortingNotes.h" />
     <ClInclude Include="Source\Headers\StackHeapNotes.h" />
     <ClInclude Include="Source\Headers\StdArray.h" />
     <ClInclude Include="Source\Headers\TemplateNotes.h" />
