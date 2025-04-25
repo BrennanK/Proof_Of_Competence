@@ -26,6 +26,7 @@
 #include "Source/Headers/TimingNotes.h"
 #include "Source/Headers/MultiDimensionalArrays.h"
 #include "Source/Headers/SortingNotes.h"
+#include "Source/Headers/TypePunningNotes.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -125,7 +126,8 @@ int main()
 
     //TimingNotes();
    // MultiDimensionalExample();
-    SortingNotes();
+    //SortingNotes();
+    PunningNotes();
     std::cin.get() ;
 }
 

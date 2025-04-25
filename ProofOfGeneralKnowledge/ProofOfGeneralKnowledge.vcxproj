@@ -160,6 +160,7 @@
     <ClCompile Include="Source\Cpp\TernaryExample.cpp" />
     <ClCompile Include="Source\Cpp\ThreadNotes.cpp" />
     <ClCompile Include="Source\Cpp\TimingNotes.cpp" />
+    <ClCompile Include="Source\Cpp\TypePunningNotes.cpp" />
     <ClCompile Include="Source\Cpp\Vector2D.cpp" />
     <ClCompile Include="Source\Cpp\Vector3D.cpp" />
     <ClCompile Include="Source\Cpp\VectorD.cpp" />
@@ -193,6 +194,7 @@
     <ClInclude Include="Source\Headers\TernaryExample.h" />
     <ClInclude Include="Source\Headers\ThreadNotes.h" />
     <ClInclude Include="Source\Headers\TimingNotes.h" />
+    <ClInclude Include="Source\Headers\TypePunningNotes.h" />
     <ClInclude Include="Source\Headers\Vector2D.h" />
     <ClInclude Include="Source\Headers\Vector3D.h" />
     <ClInclude Include="Source\Headers\VectorD.h" />
