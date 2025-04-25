@@ -28,6 +28,7 @@
 #include "Source/Headers/SortingNotes.h"
 #include "Source/Headers/TypePunningNotes.h"
 #include "Source/Headers/UnionNotes.h"
+#include "Source/Headers/VirtualDestructors.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -130,7 +131,8 @@ int main()
     //SortingNotes();
     //PunningNotes();
 
-    UnionNotes();
+    //UnionNotes();
+    VirtualDestructionExample();
     std::cin.get() ;
 }
 
