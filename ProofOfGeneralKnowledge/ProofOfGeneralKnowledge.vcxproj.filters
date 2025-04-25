@@ -200,5 +200,8 @@
     <ClInclude Include="Source\Headers\VirtualDestructors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\Casting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
