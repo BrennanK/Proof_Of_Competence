@@ -171,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Headers\AutoNotes.h" />
+    <ClInclude Include="Source\Headers\BreakPointPractice.h" />
     <ClInclude Include="Source\Headers\Casting.h" />
     <ClInclude Include="Source\Headers\Const.h" />
     <ClInclude Include="Source\Headers\Debugger_Practice.h" />
