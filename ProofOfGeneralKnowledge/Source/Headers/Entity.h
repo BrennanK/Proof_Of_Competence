@@ -6,6 +6,17 @@ public:
 	Entity();
 	~Entity();
 	void Print();
+	virtual void methodForVtable() {};
+};
+
+class Enemy : public Entity
+{
+
+};
+
+class NPC : public Entity
+{
+
 };
 
 struct OffsetEx
