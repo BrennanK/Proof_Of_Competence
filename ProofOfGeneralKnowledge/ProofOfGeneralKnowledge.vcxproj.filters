@@ -209,5 +209,8 @@
     <ClInclude Include="Source\Headers\BenchmarkingPractice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\StructuredBindingsExample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
