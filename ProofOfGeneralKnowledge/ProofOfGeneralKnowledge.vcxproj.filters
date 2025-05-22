@@ -215,5 +215,8 @@
     <ClInclude Include="Source\Headers\OptionalData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\StdVariant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

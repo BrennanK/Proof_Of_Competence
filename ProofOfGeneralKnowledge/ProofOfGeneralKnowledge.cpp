@@ -34,6 +34,7 @@
 #include "Source/Headers/BenchmarkingPractice.h"
 #include "Source/Headers/StructuredBindingsExample.h"
 #include "Source/Headers/OptionalData.h"
+#include "Source/Headers/StdVariant.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -144,7 +145,8 @@ int main()
     //DynamicCastingNotes();
     //BenchMethod1();
     //StructuredBindingExample();
-    OptionalExample();
+    //OptionalExample();
+    VariantExample();
     std::cin.get() ;
 }
 

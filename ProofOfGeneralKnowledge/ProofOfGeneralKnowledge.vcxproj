@@ -197,6 +197,7 @@
     <ClInclude Include="Source\Headers\SortingNotes.h" />
     <ClInclude Include="Source\Headers\StackHeapNotes.h" />
     <ClInclude Include="Source\Headers\StdArray.h" />
+    <ClInclude Include="Source\Headers\StdVariant.h" />
     <ClInclude Include="Source\Headers\StructuredBindingsExample.h" />
     <ClInclude Include="Source\Headers\TemplateNotes.h" />
     <ClInclude Include="Source\Headers\TernaryExample.h" />
