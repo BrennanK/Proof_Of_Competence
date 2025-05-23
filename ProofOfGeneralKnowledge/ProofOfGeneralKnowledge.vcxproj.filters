@@ -218,5 +218,8 @@
     <ClInclude Include="Source\Headers\StdVariant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\StdAny.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
