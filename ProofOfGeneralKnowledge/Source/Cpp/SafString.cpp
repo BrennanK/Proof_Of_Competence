@@ -65,3 +65,5 @@ char& SafString::operator[](unsigned int index) //Used to overload the operator 
 {
 	return m_String[index];
 }
+
+

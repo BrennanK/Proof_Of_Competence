@@ -17,3 +17,4 @@ public:
 	char& operator[](unsigned int index);
 };
 void demoSelfMadeStringClass();
+

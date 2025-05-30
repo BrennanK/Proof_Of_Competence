@@ -158,6 +158,7 @@
     <ClCompile Include="Source\Cpp\SmartPointersNotes.cpp" />
     <ClCompile Include="Source\Cpp\StackHeapNotes.cpp" />
     <ClCompile Include="Source\Cpp\StdArray.cpp" />
+    <ClCompile Include="Source\Cpp\StringViewExample.cpp" />
     <ClCompile Include="Source\Cpp\TernaryExample.cpp" />
     <ClCompile Include="Source\Cpp\ThreadNotes.cpp" />
     <ClCompile Include="Source\Cpp\TimingNotes.cpp" />
@@ -199,6 +200,7 @@
     <ClInclude Include="Source\Headers\StdAny.h" />
     <ClInclude Include="Source\Headers\StdArray.h" />
     <ClInclude Include="Source\Headers\StdVariant.h" />
+    <ClInclude Include="Source\Headers\StringViewExample.h" />
     <ClInclude Include="Source\Headers\StructuredBindingsExample.h" />
     <ClInclude Include="Source\Headers\TemplateNotes.h" />
     <ClInclude Include="Source\Headers\TernaryExample.h" />
