@@ -155,6 +155,7 @@
     <ClCompile Include="Source\Cpp\Pointers.cpp" />
     <ClCompile Include="ProofOfGeneralKnowledge.cpp" />
     <ClCompile Include="Source\Cpp\SafString.cpp" />
+    <ClCompile Include="Source\Cpp\Singleton.cpp" />
     <ClCompile Include="Source\Cpp\SmartPointersNotes.cpp" />
     <ClCompile Include="Source\Cpp\StackHeapNotes.cpp" />
     <ClCompile Include="Source\Cpp\StdArray.cpp" />
@@ -194,6 +195,7 @@
     <ClInclude Include="Source\Headers\Pointers.h" />
     <ClInclude Include="Source\Headers\PrintableInterface.h" />
     <ClInclude Include="Source\Headers\SafString.h" />
+    <ClInclude Include="Source\Headers\Singleton.h" />
     <ClInclude Include="Source\Headers\SmartPointersNotes.h" />
     <ClInclude Include="Source\Headers\SortingNotes.h" />
     <ClInclude Include="Source\Headers\StackHeapNotes.h" />

@@ -36,6 +36,7 @@
 #include "Source/Headers/OptionalData.h"
 #include "Source/Headers/StdVariant.h"
 #include "Source/Headers/StringViewExample.h"
+#include "Source/Headers/Singleton.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -148,7 +149,11 @@ int main()
     //StructuredBindingExample();
     //OptionalExample();
     //VariantExample();
-    StringViewExample();
+    //StringViewExample();
+    SingletonExample::Get().someSingletonFunction();
+    SingletonExample& copy = SingletonExample::Get();
+    copy.someSingletonFunction();
+    LOG(copy.returnInt());
     std::cin.get() ;
 }
 
