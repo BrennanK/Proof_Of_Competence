@@ -3,14 +3,14 @@
 #include "../Headers/MacroEx.h"
 
 static uint32_t s_AllocCount = 0;
-
+/*
 void* operator new(size_t size)
 {
 	s_AllocCount++;
 	std::cout << "Allocating " << size << " bytes\n";
 	return malloc(size);
 }
-
+*/
 void PrintName(std::string_view value)
 {
 	std::cout << value << std::endl;
