@@ -236,5 +236,8 @@
     <ClInclude Include="Source\Headers\TrackingMemoryExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\LAndRValuesNotes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

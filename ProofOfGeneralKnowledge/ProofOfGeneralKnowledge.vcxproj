@@ -183,6 +183,7 @@
     <ClInclude Include="Source\Headers\FunctionPointers.h" />
     <ClInclude Include="Source\Headers\Instantiate.h" />
     <ClInclude Include="Source\Headers\LambdaNotes.h" />
+    <ClInclude Include="Source\Headers\LAndRValuesNotes.h" />
     <ClInclude Include="Source\Headers\Logger.h" />
     <ClInclude Include="Source\Headers\MacroEx.h" />
     <ClInclude Include="Source\Headers\MorphGun.h" />
