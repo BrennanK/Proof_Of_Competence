@@ -187,6 +187,7 @@
     <ClInclude Include="Source\Headers\Logger.h" />
     <ClInclude Include="Source\Headers\MacroEx.h" />
     <ClInclude Include="Source\Headers\MorphGun.h" />
+    <ClInclude Include="Source\Headers\MoveSemantics.h" />
     <ClInclude Include="Source\Headers\MultiDimensionalArrays.h" />
     <ClInclude Include="Source\Headers\NamespaceNotes.h" />
     <ClInclude Include="Source\Headers\OptimizedVector.h" />

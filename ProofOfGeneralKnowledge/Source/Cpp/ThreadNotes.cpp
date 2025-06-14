@@ -26,13 +26,13 @@ void ThreadExample()
 void ThreadWork(MorphGun& mGun)
 {
 	std::cout << "Thread Id: " << std::this_thread::get_id() << " is starting" << std::endl;
-	using namespace std::literals::chrono_literals;
+	//using namespace std::literals::chrono_literals;
 	while (!finish_work)
 	{
 		LOG("GunStats: ");
 		LOG(mGun.GetGunType());
 		LOG(mGun.GetAmmoCount());
-		std::this_thread::sleep_for(1s);
+		//std::this_thread::sleep_for(1s);
 	}
 	std::cout << "Thread Id: " << std::this_thread::get_id() << " is finished"<<std::endl;
 	

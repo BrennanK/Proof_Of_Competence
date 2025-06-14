@@ -239,5 +239,8 @@
     <ClInclude Include="Source\Headers\LAndRValuesNotes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Headers\MoveSemantics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
