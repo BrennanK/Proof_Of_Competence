@@ -34,6 +34,24 @@ public:
 		rv_Data.m_Data = nullptr;
 	}
 
+	MoveString& operator=(MoveString&& other) noexcept // This is the assignment operator for moving data which allows us to reassign a value 
+	{													// without allocating new memory
+		printf("Assigned!\n");
+
+		if (this != &other)
+		{
+			delete[] m_Data; // This frees the old memory that was in place 
+
+			m_Size = other.m_Size;
+			m_Data = other.m_Data; // In this case instead of creating new memory we are basically making a pointer to a pointer in memory
+			
+
+			other.m_Size = 0; // In a move constructor we do have to set the pointer to null and 0 out the size
+			other.m_Data = nullptr;
+		}
+		return *this;
+	}
+
 	~MoveString()
 	{
 		printf("Destroyed!\n");
@@ -78,7 +96,27 @@ private:
 
 void executeMoveStringExample()
 {
-	MoveEntity move(MoveString("Safari"));
+	//MoveEntity move(MoveString("Safari"));
+	//move.PrintName();
 
-	move.PrintName();
+	//MoveString temp = "Hello";
+	//MoveString temp2 = (MoveString&&)temp; // This is the static way of performing a move operation to not have a copy occur
+	//MoveString temp2=std::move(temp); // This is the dynamic way where it will figure out object typing at runtime
+	//temp2 = std::move(temp);
+	//temp2 = temp;
+
+	MoveString apple = "Apple";
+	MoveString dest;
+
+	std::cout << "Apple: ";
+	apple.Print();
+	std::cout << "Dest: ";
+	dest.Print();
+
+	dest = std::move(apple);
+
+	std::cout << "Apple: ";
+	apple.Print();
+	std::cout << "Dest: ";
+	dest.Print();
 }
