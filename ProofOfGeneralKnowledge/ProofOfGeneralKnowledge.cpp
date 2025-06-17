@@ -39,6 +39,7 @@
 #include "Source/Headers/Singleton.h"
 #include "Source/Headers/TrackingMemoryExample.h"
 #include "Source/Headers/MoveSemantics.h"
+#include "Source/Headers/SelfMadeDataStructures.h"
 int Log::timesLogged = 0; // Have to add definition of static varaible for Log here or else it will not work
 
 void Demonstration() // Used to show how constructor and destructor work
@@ -157,7 +158,8 @@ int main()
     //copy.someSingletonFunction();
     //LOG(copy.returnInt());
     //memoryTrackingExample();
-    executeMoveStringExample();
+    //executeMoveStringExample();
+    SelfMadeStructureExample();
     std::cin.get() ;
 }
 

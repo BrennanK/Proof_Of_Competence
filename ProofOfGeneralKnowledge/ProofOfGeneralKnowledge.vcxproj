@@ -197,6 +197,7 @@
     <ClInclude Include="Source\Headers\Pointers.h" />
     <ClInclude Include="Source\Headers\PrintableInterface.h" />
     <ClInclude Include="Source\Headers\SafString.h" />
+    <ClInclude Include="Source\Headers\SelfMadeDataStructures.h" />
     <ClInclude Include="Source\Headers\Singleton.h" />
     <ClInclude Include="Source\Headers\SmartPointersNotes.h" />
     <ClInclude Include="Source\Headers\SortingNotes.h" />
