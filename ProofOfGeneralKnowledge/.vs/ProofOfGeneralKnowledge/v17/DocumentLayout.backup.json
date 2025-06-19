@@ -7,23 +7,16 @@
       "RelativeMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|solutionrelative:Source\\Headers\\SelfMadeDataStructures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Headers\\MoveSemantics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|solutionrelative:Source\\Headers\\MoveSemantics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Headers\\SafString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|solutionrelative:Source\\Headers\\SafString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Cpp\\SafString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|solutionrelative:Source\\Cpp\\SafString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory||{3B902123-F8A7-4915-9F01-361F908088D0}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\ProofOfGeneralKnowledge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|solutionrelative:ProofOfGeneralKnowledge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Headers\\MoveSemantics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92CFBC7F-FBBC-45D6-8253-9890EFFD6B5D}|ProofOfGeneralKnowledge.vcxproj|solutionrelative:Source\\Headers\\MoveSemantics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "xmemory",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
-              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
-              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
-              "ViewState": "AgIAAFwFAAAAAAAAAAAswGsFAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-18T17:47:10.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SafString.cpp",
-              "DocumentMoniker": "C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Cpp\\SafString.cpp",
-              "RelativeDocumentMoniker": "Source\\Cpp\\SafString.cpp",
-              "ToolTip": "C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Cpp\\SafString.cpp",
-              "RelativeToolTip": "Source\\Cpp\\SafString.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-18T16:44:52.884Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -69,26 +36,27 @@
               "RelativeDocumentMoniker": "Source\\Headers\\SelfMadeDataStructures.h",
               "ToolTip": "C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Headers\\SelfMadeDataStructures.h",
               "RelativeToolTip": "Source\\Headers\\SelfMadeDataStructures.h",
-              "ViewState": "AgIAADYAAAAAAAAAAAAiwC4AAAB3AAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAmwKMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-17T14:32:30.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MoveSemantics.h",
               "DocumentMoniker": "C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Headers\\MoveSemantics.h",
               "RelativeDocumentMoniker": "Source\\Headers\\MoveSemantics.h",
               "ToolTip": "C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Headers\\MoveSemantics.h",
               "RelativeToolTip": "Source\\Headers\\MoveSemantics.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-14T12:41:43.525Z"
+              "WhenOpened": "2025-06-14T12:41:43.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SafString.h",
               "DocumentMoniker": "C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\Source\\Headers\\SafString.h",
               "RelativeDocumentMoniker": "Source\\Headers\\SafString.h",
@@ -96,12 +64,11 @@
               "RelativeToolTip": "Source\\Headers\\SafString.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-30T16:23:09.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T16:23:09.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ProofOfGeneralKnowledge.cpp",
               "DocumentMoniker": "C:\\Portfolio folder\\Proof_Of_Competence\\ProofOfGeneralKnowledge\\ProofOfGeneralKnowledge.cpp",
               "RelativeDocumentMoniker": "ProofOfGeneralKnowledge.cpp",

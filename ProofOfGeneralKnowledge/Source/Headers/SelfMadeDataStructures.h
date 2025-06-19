@@ -30,9 +30,9 @@ public:
 Goals:
 
 Ability to resize
-Constructor
-Destructor
-Copy
+Constructor-Done
+Destructor-Done
+Copy-Done
 Move
 */
 
@@ -47,11 +47,28 @@ public:
 	~ArrayList() { delete[] m_data; }; // Need to fix this so that no problem occurs in having the same memory freed twice
 	ArrayList(const ArrayList& data):m_size(data.m_size)
 	{
+		LOG("Copied");
 		m_data = new dt[m_size];
-		memcpy(m_data, data.m_data, m_size * sizeof(dt));
-		//delete[] data.m_data;
+		
+		for (size_t i = 0; i < m_size; i++)
+		{
+			m_data[i] = data.m_data[i];
+		}
+		
 	}
+	ArrayList(ArrayList&& data)noexcept :m_size(data.m_size)
+	{
+		LOG("Moved");
+		m_data = new dt[m_size];
 
+		for (size_t i = 0; i < m_size; i++)
+		{
+			m_data[i] = data.m_data[i];
+		}
+		
+		data.m_data = nullptr;
+		delete[] data.m_data;
+	}
 public:
 	size_t size() { return m_size; }
 	dt& operator[](size_t index){ return m_data[index];}
@@ -59,8 +76,22 @@ public:
 	void AddIndex(dt Item)
 	{
 		// To DO
-
+		dt* o_data = m_data;
+		m_size += 1;
+		m_data = new dt[m_size];
+		for (size_t i = 0; i < m_size; i++)
+		{
+			if (i == m_size - 1)
+			{
+				m_data[i] = Item;
+				break;
+			}
+			m_data[i] = o_data[i];
+		}
+		delete[] o_data;
 	}
+
+	dt* Data() const { return m_data; }
 	void PrintList()
 	{
 		for (size_t i = 0; i < m_size; i++)
@@ -109,7 +140,31 @@ void SelfMadeStructureExample()
 	Names.PrintList();
 
 	LOG("Names2");
+	Names2.PrintList();
+
+	Names[0] = "C++";
+	//Names2[0] = "Safari";
+	LOG("");
+	LOG("Names");
 	Names.PrintList();
+
+	LOG("");
+	LOG("Names2");
+	Names2.PrintList();
+
+	LOG("");
+	Names.AddIndex("for memory management");
+	Names.PrintList();
+
+	LOG("");
+	LOG("Names3");
+	ArrayList<std::string,2> Names3=(ArrayList<std::string,2>&&)Names2;
+	Names3.PrintList();
+
+	if (Names2.Data() == nullptr)
+	{
+		LOG("Names 2 is empty.");
+	}
 #pragma endregion 
 }
 
